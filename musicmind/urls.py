@@ -21,5 +21,6 @@ from . import views
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", views.index, name='index')
+    path("", views.index, name='index'),
+    path('api/search_song/', views.search_song, name='search_song'),
 ]

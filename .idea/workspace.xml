@@ -4,24 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2c92ee1-79ff-433f-898a-1c07b8f0f85a" name="Changes" comment="" />
+    <list default="true" id="f2c92ee1-79ff-433f-898a-1c07b8f0f85a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicmind/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicmind/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicmind/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicmind/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicmind/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/musicmind/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicmindfrontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/musicmindfrontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/musicmindfrontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/musicmindfrontend/src/App.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "emerennovena"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/emerennovena/musicmind.git",
+    "accountId": "37cac573-6e34-4aff-b90e-9630f2ff33a7"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 6
 }]]></component>
   <component name="ProjectId" id="2weMJzwNgk2Vb3ex1HBAoLysufL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SharedIndexes">
