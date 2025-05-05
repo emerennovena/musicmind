@@ -12,8 +12,8 @@ client_id = os.getenv('SPOTIFY_CLIENT_ID')
 client_secret = os.getenv('SPOTIFY_CLIENT_SECRET')
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-                client_id='SPOTIFY_CLIENT_ID',
-                client_secret='SPOTIFY_CLIENT_SECRET'))
+                client_id=client_id,
+                client_secret=client_secret))
 
 def index(request):
     return render(request, 'index.html')
