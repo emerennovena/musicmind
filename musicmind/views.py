@@ -3,13 +3,20 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+client_id = os.getenv('SPOTIFY_CLIENT_ID')
+client_secret = os.getenv('SPOTIFY_CLIENT_SECRET')
+
+sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
+                client_id='SPOTIFY_CLIENT_ID',
+                client_secret='SPOTIFY_CLIENT_SECRET'))
 
 def index(request):
     return render(request, 'index.html')
-
-sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-                client_id='a0d8d2f148c2e4cee9cc971cdf7482cd5',
-                client_secret='2994a6ed6cc8466db21a50c40bb641e3'))
 
 @api_view(['GET'])
 def search_song(request):
